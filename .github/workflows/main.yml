@@ -3,6 +3,6 @@ name: Welcome
 jobs:
   usingubundu:
     runs-on: ubuntu-latest
-    steps: null
-    name: Welcome
-    run: echo "Welcome everyone"
+    steps: 
+      -name: Welcome
+       run: echo "Welcome everyone"
